@@ -11,7 +11,7 @@ const createIssue = async (req, res, next) => {
     await CollectorIssues.letsSolveTheIssue()
     return res.json({
         message:
-          `Your issue is pending free agent and will be solved within 5 second. Please send request to /solveIssue/${createdIssue?.id} for get response of the issue.`
+          `Your issue is pending free agent and will be solved within 30 second. Please send request to /solveIssue/${createdIssue?.id} for get response of the issue.`
       });
   } catch(error) {
     console.log('error: ', error.message)

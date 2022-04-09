@@ -15,8 +15,9 @@ These instructions will get you a copy of the project up and running on your loc
 Postman
 http://localhost:8081/solveIssue POST body: {"name": "name issue"}
 the server will respond you:
+
 {
-"message": "Your issue is pending free agent and will be solved within 5 second.
+"message": "Your issue is pending free agent and will be solved within 30 second.
 Please send request to /solveIssue/57 for get response of the issue."
 }
 
